@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://zcsaoe.github.io/sitemap.xml

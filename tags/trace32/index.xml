@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Trace32 on</title><link>https://zcsaoe.github.io/tags/trace32/</link><description>Recent content in Trace32 on</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2025-2025 zcsaoe. All Rights Reserved.</copyright><lastBuildDate>Tue, 01 Jul 2025 22:12:12 +0800</lastBuildDate><atom:link href="https://zcsaoe.github.io/tags/trace32/index.xml" rel="self" type="application/rss+xml"/><item><title>TRACE32使用教程</title><link>https://zcsaoe.github.io/docs/cpu/debug/trace32/</link><pubDate>Tue, 01 Jul 2025 22:12:12 +0800</pubDate><guid>https://zcsaoe.github.io/docs/cpu/debug/trace32/</guid><description><![CDATA[<h2 id="tc397xp下载脚本" data-numberify>TC397xp下载脚本<a class="anchor ms-1" href="#tc397xp下载脚本"></a></h2>
+<blockquote>
+<p><strong>tc397.bat</strong>, 方便第一次启动trace32软件</p></blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bat" data-lang="bat"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="p">@</span><span class="k">echo</span> off
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c1">rem 设置 Trace32 安装路径（根据你的实际安装目录修改）</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="k">set</span> <span class="nv">TRACE32_PATH</span><span class="p">=</span>C:\T32
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1">rem 设置配置文件和启动脚本路径（根据实际路径修改）</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="k">set</span> <span class="nv">CONFIG_FILE</span><span class="p">=</span><span class="nv">%TRACE32_PATH%</span>\config.t32
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="k">set</span> <span class="nv">CMM_SCRIPT</span><span class="p">=</span>D:\mycodedev\project-tc397\elf\my-tc39x.cmm
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1">rem 启动 TRACE32 并加载脚本</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">@</span><span class="c1">REM start &#34;&#34; &#34;%TRACE32_PATH%\bin\t32.exe&#34; -c &#34;%CONFIG_FILE%&#34; -s &#34;%CMM_SCRIPT%&#34;</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="k">start</span> <span class="s2">&#34;&#34;</span> <span class="s2">&#34;</span><span class="nv">%TRACE32_PATH%</span><span class="s2">\bin\windows64\t32mtc.exe&#34;</span> -c <span class="s2">&#34;</span><span class="nv">%CONFIG_FILE%</span><span class="s2">&#34;</span> -s <span class="s2">&#34;</span><span class="nv">%CMM_SCRIPT%</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><blockquote>
+<p><strong>win.cmm</strong>，可以在trace32软件上调整布局需要的窗口之后store windows，根据需求修改即可</p>]]></description></item></channel></rss>
