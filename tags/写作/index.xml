@@ -4,6 +4,7 @@
 插件 <a href="https://marketplace.visualstudio.com/items?itemName=sakamoto66.vscode-paste-image" target="_blank" rel="noopener noreferrer">Paste Image from local pc<i class="fas fa-external-link-square-alt ms-1"></i></a>，项目地址：https://github.com/mushanshitiancai/vscode-paste-image</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln">1</span><span class="cl">  win: ctrl+alt+v
+</span></span><span class="line"><span class="ln">2</span><span class="cl">  # 如需修改粘贴目录 &#34;pasteImage.path&#34;: &#34;images/${fileBasenameNoExtension}&#34;
 </span></span></code></pre></div>
-<h2 id="欢迎使用markdown编辑器-实例" data-numberify>欢迎使用Markdown编辑器-实例<a class="anchor ms-1" href="#欢迎使用markdown编辑器-实例"></a></h2>
+<h2 id="markdown编辑器-实例" data-numberify>Markdown编辑器-实例<a class="anchor ms-1" href="#markdown编辑器-实例"></a></h2>
 <p>你好！ 这是你第一次使用 <strong>Markdown编辑器</strong> 所展示的欢迎页。如果你想学习如何使用Markdown编辑器, 可以仔细阅读这篇文章，了解一下Markdown的基本语法知识。</p>]]></description></item></channel></rss>
