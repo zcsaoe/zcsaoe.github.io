@@ -1,0 +1,469 @@
+<!doctype html><html class=position-relative itemscope itemtype=https://schema.org/WebPage lang=zh-hans data-bs-theme=auto><head><script src=/assets/init/bundle.min.397129316ebf5d0138f2a6eb945afea462097722c2aadea2126a46958286b68a.js integrity="sha256-OXEpMW6/XQE48qbrlFr+pGIJdyLCqt6iEmpGlYKGtoo=" crossorigin=anonymous></script><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Router -</title><link rel=icon href=/favicon_hu_34f9c9faf91b627e.webp sizes=16x16 type=image/webp><link rel=icon href=/favicon_hu_39d7e2e00a977bd3.webp sizes=32x32 type=image/webp><link rel=icon href=/favicon_hu_3b58e88b4b286a78.webp sizes=150x150 type=image/webp><link rel=apple-touch-icon href=/favicon_hu_3598ad0641f7f3c3.webp sizes=180x180 type=image/webp><link rel=icon href=/favicon_hu_144910b52c989e57.webp sizes=192x192 type=image/webp><link rel=mask-icon href=/safari-pinned-tab.svg color=#6f42c1><meta name=keywords content="Hugo,Bootstrap,博客主题"><meta name=description content="网络相关的配置，操作等"><meta name=robots content="index, follow"><meta name=twitter:card content="summary"><meta name=twitter:title content="Router"><meta name=twitter:description content="网络相关的配置，操作等"><meta property="og:url" content="https://6668688.xyz/docs/misc/router/"><meta property="og:title" content="Router"><meta property="og:description" content="网络相关的配置，操作等"><meta property="og:locale" content="zh_hans"><meta property="og:type" content="article"><meta property="article:section" content="docs"><meta property="article:published_time" content="2025-08-02T11:54:30+08:00"><meta property="article:modified_time" content="2025-07-30T11:59:26+08:00"><meta itemprop=name content="Router"><meta itemprop=description content="网络相关的配置，操作等"><meta itemprop=datePublished content="2025-08-02T11:54:30+08:00"><meta itemprop=dateModified content="2025-07-30T11:59:26+08:00"><meta itemprop=wordCount content="2623"><meta itemprop=keywords content="Router"><meta property="og:image" content="https://6668688.xyz/images/Mascot.webp"><meta name=twitter:image content="https://6668688.xyz/images/Mascot.webp"><meta property="og:image:alt" content="Router"><meta name=twitter:image:alt content="Router"><link rel=manifest href=/manifest.json><script async src="https://www.googletagmanager.com/gtag/js?id=G-M4F16E8H84"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-M4F16E8H84")}</script><link data-precache rel=stylesheet href="/assets/main/bundle.min.ad0a847d77b45185526caf2af6f5a0e2a5f3bbc99eebf1f75faadd01353a4b41.css" integrity="sha256-rQqEfXe0UYVSbK8q9vWg4qXzu8me6/H3X6rdATU6S0E=" crossorigin=anonymous><link data-precache rel=stylesheet href=/assets/viewer/bundle.min.16d2c85c4cae39a98f8cb7a977e95e554b174f91a5484c32605637156f49ca6b.css integrity="sha256-FtLIXEyuOamPjLepd+leVUsXT5GlSEwyYFY3FW9Jyms=" crossorigin=anonymous></head><body><header class="mb-4 sticky-top"><nav class="top-app-bar shadow navbar navbar-expand-xxl"><div class=container><button class="navbar-toggler border-0" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasDocsNav aria-expanded=false aria-label="Toggle docs navigation">
+<i class="fas fa-bars"></i>
+</button>
+<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start justify-content-center ms-2 ms-xxl-0 mx-auto me-xxl-2" href=https://6668688.xyz/><picture><img class=logo alt=Logo src="https://6668688.xyz/images/Mascot.webp?v=560d8d8918ae57c49da70c12afdbba93" loading=lazy width=400 height=400></picture></a><div class="offcanvas-xxl offcanvas-end flex-grow-1" data-bs-scroll=true tabindex=-1 id=navbarMenus aria-labelledby=navbarMenusLabel><div class="offcanvas-header px-4 pb-0"><div class="offcanvas-title h5" id=navbarMenusLabel></div><button type=button class="btn-close btn-close-white" data-bs-dismiss=offcanvas data-bs-target=#navbarMenus aria-label=Close></button></div><div class="offcanvas-body p-4 pt-0 p-xxl-0"><hr class=d-xxl-none><ul class="navbar-nav flex-row flex-wrap align-items-center me-auto"><li class="nav-item col-6 col-xxl-auto"><a class="nav-link py-2 px-0 px-xxl-2" href=https://6668688.xyz/onlinetools/>Online Tools</a></li></ul><hr class=d-xxl-none><form class="search-bar ms-auto my-auto" action=/search/ novalidate><div class="input-group align-items-center"><span class="btn btn-search disabled position-absolute left-0 border-0 px-1"><i class="fas fa-fw fa-search fa-lg"></i>
+</span><input class="my-1 form-control border-white rounded-5 search-input bg-body" name=q type=search placeholder=搜索 aria-label=Search required>
+<span class="search-shortcut position-absolute end-0 top-0 me-2"><kbd class="text-dark bg-white opacity-75 rounded-3 shadow border border-primary py-1 fw-bold">/</kbd></span></div></form><hr class=d-xxl-none><ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto"><li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto"><nav class="social-links nav justify-content-center flex-row"><a class="nav-link social-link col-6 col-xxl-auto p-1" target=_blank href=https://github.com/zcsaoe title=GitHub rel=me><i class="fa-fw fab fa-github"></i>
+<span class="ms-1 d-xxl-none">Github</span></a></nav></li><li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto"><div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div><hr class="d-xxl-none my-2"></li><li class="nav-item dropdown py-1 py-xxl-1 col-6 col-xxl-auto"><a class="nav-link px-0 px-xxl-1" href=# id=languageDropdown role=button data-bs-toggle=dropdown aria-expanded=false><i class="fas fa-fw fa-globe"></i>
+<span class=d-xxl-none>语言</span></a><ul class="language-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby=languageDropdown><li><a class=dropdown-item href=/en/>English</a></li><li><a class="dropdown-item active" href=/>简体中文</a></li></ul></li><li class="nav-item py-1 col-12 col-xxl-auto"><div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div><hr class="d-xxl-none my-2"></li><li class="nav-item dropdown col-6 col-xxl-auto"><a class="nav-link px-0 py-2 px-xxl-1" href=# id=fontSizeDropdown role=button data-bs-toggle=dropdown aria-expanded=false><i class="fas fa-fw fa-font"></i>
+<span class=d-xxl-none>字体大小</span></a><ul class="font-size-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby=fontSizeDropdown><li><button class="font-size-item dropdown-item" data-size=xs>
+特小号</button></li><li><button class="font-size-item dropdown-item" data-size=sm>
+小号</button></li><li><button class="font-size-item dropdown-item active" data-size=md>
+中等</button></li><li><button class="font-size-item dropdown-item" data-size=lg>
+大号</button></li><li><button class="font-size-item dropdown-item" data-size=xl>
+特大号</button></li></ul></li><li class="nav-item dropdown col-6 col-xxl-auto"><a class="nav-link px-0 py-2 px-xxl-1" href=# id=paletteDropdown role=button data-bs-toggle=dropdown aria-expanded=false><i class="fas fa-fw fa-palette"></i>
+<span class=d-xxl-none>配色</span></a><ul class="palette-dropdown-menu dropdown-menu dropdown-menu-end px-2 row g-2" aria-labelledby=paletteDropdown><li class="col-4 my-1"><a role=button id=palette-blue aria-label=蓝色 class="btn btn-sm w-100 palette text-bg-blue" data-palette=blue></a></li><li class="col-4 my-1"><a role=button id=palette-blue-gray aria-label=蓝灰色 class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette=blue-gray></a></li><li class="col-4 my-1"><a role=button id=palette-brown aria-label=棕色 class="btn btn-sm w-100 palette text-bg-brown" data-palette=brown></a></li><li class="col-4 my-1"><a role=button id=palette-cyan aria-label=青色 class="btn btn-sm w-100 palette text-bg-cyan" data-palette=cyan></a></li><li class="col-4 my-1"><a role=button id=palette-green aria-label=绿色 class="btn btn-sm w-100 palette text-bg-green" data-palette=green></a></li><li class="col-4 my-1"><a role=button id=palette-indigo aria-label=靛青色 class="btn btn-sm w-100 palette text-bg-indigo" data-palette=indigo></a></li><li class="col-4 my-1"><a role=button id=palette-orange aria-label=橙色 class="btn btn-sm w-100 palette text-bg-orange" data-palette=orange></a></li><li class="col-4 my-1"><a role=button id=palette-pink aria-label=粉色 class="btn btn-sm w-100 palette text-bg-pink" data-palette=pink></a></li><li class="col-4 my-1"><a role=button id=palette-purple aria-label=紫色 class="btn btn-sm w-100 palette text-bg-purple" data-palette=purple></a></li><li class="col-4 my-1"><a role=button id=palette-red aria-label=红色 class="btn btn-sm w-100 palette text-bg-red" data-palette=red></a></li><li class="col-4 my-1"><a role=button id=palette-teal aria-label=蓝绿色 class="btn btn-sm w-100 palette text-bg-teal" data-palette=teal></a></li><li class="col-4 my-1"><a role=button id=palette-yellow aria-label=黄色 class="btn btn-sm w-100 palette text-bg-yellow" data-palette=yellow></a></li></ul></li><li class="nav-item dropdown col-6 col-xxl-auto"><a class="nav-link px-0 py-2 px-xxl-1" href=# id=modeDropdown role=button data-bs-toggle=dropdown aria-expanded=false><i class="mode-icon fas fa-fw fa-adjust" id=modeIcon></i>
+<span class=d-xxl-none>模式</span></a><ul class="mode-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby=modeDropdown><li class=mode-item data-color-mode=light data-icon=sun><button class=dropdown-item>
+<i class="mode-icon fas fa-fw fa-sun"></i> 浅色</button></li><li class=mode-item data-color-mode=dark data-icon=moon><button class=dropdown-item>
+<i class="mode-icon fas fa-fw fa-moon"></i> 深色</button></li><li class="mode-item active" data-color-mode=auto data-icon=adjust><button class=dropdown-item>
+<i class="mode-icon fas fa-fw fa-adjust"></i> 自动</button></li></ul></li></ul></div></div><div class=d-flex><button class="navbar-toggler order-5 border-0" type=button data-bs-toggle=offcanvas data-bs-target=#navbarMenus aria-controls=navbarMenus aria-expanded=false aria-label="Toggle navigation">
+<i class="fas fa-ellipsis-h"></i></button></div></div></nav></header><main class="container has-sidebar" data-kind=page><script data-precache src=/js/main-init.fd48d66afb2d9a122b72b40b25ebae1b1338abcace96dbd4220b429bd5f5541d.js integrity="sha256-/UjWavstmhIrcrQLJeuuGxM4q8rOltvUIgtCm9X1VB0=" crossorigin=anonymous></script><div class="row content"><noscript><div class="alert alert-danger" role=alert>你的浏览器不支持 JavaScript。</div></noscript><aside class="docs-nav col-xxl-2" tabindex=-1 data-bs-hide=focusout><div class="offcanvas-xxl offcanvas-start" id=offcanvasDocsNav aria-labelledby=offcanvasDocsNavLabel><div class="offcanvas-header border-bottom"><div class="offcanvas-title h5" id=offcanvasDocsNavLabel>浏览文档</div><button type=button class=btn-close data-bs-dismiss=offcanvas aria-label=Close data-bs-target=#offcanvasDocsNav></button></div><div class="offcanvas-body pt-2 flex-column"><ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/autosar/autosar/><span class=docs-nav-title>Autosar</span></a></li><li class=mb-2 tabindex=-1><div class="py-1 d-flex justify-content-between align-items-center"><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/><span class=docs-nav-title>cpu</span></a>
+<a class="btn-toggle ms-1 collapsed" role=button data-bs-toggle=collapse data-bs-target=#nav-43cee4cb2ebee90cdb2b8ca8044577bf aria-expanded=false aria-controls=nav-43cee4cb2ebee90cdb2b8ca8044577bf><i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform=rotate-270></i></a></div><div class="docs-nav-subnavs border-start mt-2 collapse" id=nav-43cee4cb2ebee90cdb2b8ca8044577bf><div class="btn-toggle-nav fw-normal ms-2 small"><ul class="list-unstyled mb-2 w-100"><li class=mb-2 tabindex=-1><div class="py-1 d-flex justify-content-between align-items-center"><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/arm/><span class=docs-nav-title>arm</span></a>
+<a class="btn-toggle ms-1 collapsed" role=button data-bs-toggle=collapse data-bs-target=#nav-7a03c27cee416496e05a62ea9433788b aria-expanded=false aria-controls=nav-7a03c27cee416496e05a62ea9433788b><i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform=rotate-270></i></a></div><div class="docs-nav-subnavs border-start mt-2 collapse" id=nav-7a03c27cee416496e05a62ea9433788b><div class="btn-toggle-nav fw-normal ms-2 small"><ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/arm/armv7-qemu/><span class=docs-nav-title>Armv7 Qemu</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/arm/cortex-r/cortex-r52/cortex-r52/><span class=docs-nav-title>Cortex-R52</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/arm/imx6ull-freertos/><span class=docs-nav-title>Imx6ull FreeRTOS</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/arm/j6m/><span class=docs-nav-title>J6M</span></a></li></ul></div></div></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/trace32/><span class=docs-nav-title>TRACE32使用教程</span></a></li><li class=mb-2 tabindex=-1><div class="py-1 d-flex justify-content-between align-items-center"><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/tricore/><span class=docs-nav-title>tricore</span></a>
+<a class="btn-toggle ms-1 collapsed" role=button data-bs-toggle=collapse data-bs-target=#nav-1f3d9527be3ac31576d7acaa74855ffa aria-expanded=false aria-controls=nav-1f3d9527be3ac31576d7acaa74855ffa><i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform=rotate-270></i></a></div><div class="docs-nav-subnavs border-start mt-2 collapse" id=nav-1f3d9527be3ac31576d7acaa74855ffa><div class="btn-toggle-nav fw-normal ms-2 small"><ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/tricore/tc397/><span class=docs-nav-title>Tc397</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/cpu/tricore/tc397_interrupt/><span class=docs-nav-title>Tc397中断子系统</span></a></li></ul></div></div></li></ul></div></div></li><li class=mb-2 tabindex=-1><div class="py-1 d-flex justify-content-between align-items-center"><a class="docs-nav-link d-flex align-items-center" href=/docs/dds/><span class=docs-nav-title>DDS</span></a>
+<a class="btn-toggle ms-1 collapsed" role=button data-bs-toggle=collapse data-bs-target=#nav-00d405d37f8b4497a5196e63c7c5fd7b aria-expanded=false aria-controls=nav-00d405d37f8b4497a5196e63c7c5fd7b><i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform=rotate-270></i></a></div><div class="docs-nav-subnavs border-start mt-2 collapse" id=nav-00d405d37f8b4497a5196e63c7c5fd7b><div class="btn-toggle-nav fw-normal ms-2 small"><ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/dds/dds/><span class=docs-nav-title>DDS</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/dds/mvbs/><span class=docs-nav-title>mvbs</span></a></li></ul></div></div></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/hello/><span class=docs-nav-title>Hello</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/markdown/markdown/><span class=docs-nav-title>Markdown</span></a></li><li class=mb-2 tabindex=-1><div class="py-1 d-flex justify-content-between align-items-center text-primary"><a class="docs-nav-link d-flex align-items-center" href=/docs/misc/><span class=docs-nav-title>misc</span></a>
+<a class="btn-toggle ms-1" role=button data-bs-toggle=collapse data-bs-target=#nav-887556bd011b7e588d0294d8266ab478 aria-expanded=true aria-controls=nav-887556bd011b7e588d0294d8266ab478><i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform=rotate-270></i></a></div><div class="docs-nav-subnavs border-start mt-2 collapse show" id=nav-887556bd011b7e588d0294d8266ab478><div class="btn-toggle-nav fw-normal ms-2 small"><ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/misc/hugo/><span class=docs-nav-title>Hugo</span></a></li><li class="mb-2 py-1 text-primary border-2 border-start border-primary ps-2 docs-nav-active-item" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/misc/router/><span class=docs-nav-title>Router</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/misc/investment/funds/><span class=docs-nav-title>货币基金</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/misc/bootable_usb/><span class=docs-nav-title>系统安装</span></a></li></ul></div></div></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/doraemon/><span class=docs-nav-title>懒人技术手册</span></a></li><li class="mb-2 py-1" tabindex=-1><a class="docs-nav-link d-flex align-items-center" href=/docs/linux/shell/terminalshortcutkeys/><span class=docs-nav-title>终端快捷键</span></a></li></ul></div></div></aside><div class="col ms-auto content-docs"><div class=container-fluid><nav class="row card component" aria-label=breadcrumb><div class="card-body pb-0"><ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href=/>主页</a></li><li class="breadcrumb-item text-surface"><a href=/docs/>docs</a></li><li class="breadcrumb-item text-surface"><a href=/docs/misc/>misc</a></li><li class="breadcrumb-item active">Router</li></ol></div></nav><div class="post-panel-wrapper position-relative d-flex justify-content-center"><div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1"><a class="action action-toc d-block d-xxl-none" href=#post-toc-container role=button title=目录><i class="fas fa-fw fa-list-alt"></i>
+</a><a class="action action-copyright" href=#post-copyright role=button aria-label=Copyright title=版权><i class="fas fa-fw fa-copyright"></i>
+</a><a class="action action-post-comments" href=#post-comments role=button aria-label=Comments title=评论><i class="fas fa-fw fa-comments"></i>
+</a><a id=sidebarToggler class="action action-sidebar-toggler d-none d-xxl-block" role=button title=切换侧边栏><i class="fas fa-fw fa-expand-alt" data-fa-transform=rotate-45></i></a></div></div><article class="row card component mb-4 post"><div class=card-header><h1 class="card-title post-title my-2">Router</h1></div><div class=card-body><div class="post-meta mb-3"><span class="post-date me-1 mb-1" title="创建于 2025-08-02 03:54:30 +0000 UTC。">2025年8月2日</span><span class="post-reading-time me-1 mb-1">6 分钟阅读</span><a href=/series/router/ class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+<i class="fas fa-fw fa-columns me-1"></i>Router</a></div><div class="mt-2 mb-3 d-block d-xxl-none"><h2 class="text-surface mb-3">目录</h2><div id=post-toc-container></div><hr class=text-secondary></div><div class="post-content mb-3" data-bs-spy=scroll data-bs-target=#TableOfContents tabindex=0><div id=post-content-body><p>网络相关的配置，操作等</p><h2 id=常用命令 data-numberify>常用命令<a class="anchor ms-1" href=#常用命令></a></h2><blockquote><p>ifdown wan; ifup wan<br>cat /proc/net/nf_conntrack 查看链接<br>nc -zv ip port 测试端口</p></blockquote><h3 id=iptable data-numberify>iptable<a class="anchor ms-1" href=#iptable></a></h3><blockquote><p>filter nat mangle raw security<br>iptables -t nat -L input_rule -n -v &ndash;line-numbers<br>iptables -D input_rule 2<br>iptables -F input_rule<br>iptables -t nat -A POSTROUTING -s 172.22.22.0/24 -d 192.168.1.0/24 -j MASQUERADE<br>iptables -I FORWARD 1 -s 192.168.1.100 -p udp &ndash;sport 30000:40000 -j DROP</p></blockquote><h3 id=tcpdump data-numberify>tcpdump<a class="anchor ms-1" href=#tcpdump></a></h3><blockquote><p>tcpdump -i eth2<br>tcpdump -i eth2 host 172.22.22.235 -w test.pcap<br>tcpdump -i eth2 tcp / udp</p></blockquote><h2 id=L_rustdesk data-numberify>rustdesk<a class="anchor ms-1" href=#L_rustdesk></a></h2><blockquote><p><a href=https://github.com/rustdesk/rustdesk target=_blank rel="noopener noreferrer">https://github.com/rustdesk/rustdesk<i class="fas fa-external-link-square-alt ms-1"></i></a></p></blockquote><blockquote><p>服务<br><a href=https://github.com/rustdesk/rustdesk-server target=_blank rel="noopener noreferrer">https://github.com/rustdesk/rustdesk-server<i class="fas fa-external-link-square-alt ms-1"></i></a><br><a href=https://rustdesk.com/docs/en/self-host/ target=_blank rel="noopener noreferrer">https://rustdesk.com/docs/en/self-host/<i class="fas fa-external-link-square-alt ms-1"></i></a></p></blockquote><h2 id=wireguard data-numberify>wireguard<a class="anchor ms-1" href=#wireguard></a></h2><blockquote><p><a href=https://www.wireguard.com/install/ target=_blank rel="noopener noreferrer">install<i class="fas fa-external-link-square-alt ms-1"></i></a><br><a href=https://download.wireguard.com/windows-client/ target=_blank rel="noopener noreferrer">windows-client<i class="fas fa-external-link-square-alt ms-1"></i></a><br><a href=https://www.wireguard.com/quickstart/ target=_blank rel="noopener noreferrer">quickstart<i class="fas fa-external-link-square-alt ms-1"></i></a></p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln> 1</span><span class=cl>sudo apt install wireguard
+</span></span><span class=line><span class=ln> 2</span><span class=cl>sudo sed -i <span class=s1>&#39;s/.*net\.ipv4\.ip_forward.*/net.ipv4.ip_forward = 1/&#39;</span> /etc/sysctl.conf
+</span></span><span class=line><span class=ln> 3</span><span class=cl>sysctl -p
+</span></span><span class=line><span class=ln> 4</span><span class=cl><span class=nb>cd</span> /etc/wireguard
+</span></span><span class=line><span class=ln> 5</span><span class=cl>wg genkey <span class=p>|</span> tee server_privatekey <span class=p>|</span> wg pubkey &gt; server_publickey
+</span></span><span class=line><span class=ln> 6</span><span class=cl>wg genkey <span class=p>|</span> tee client_privatekey <span class=p>|</span> wg pubkey &gt; client_publickey
+</span></span><span class=line><span class=ln> 7</span><span class=cl>
+</span></span><span class=line><span class=ln> 8</span><span class=cl><span class=nb>echo</span> <span class=s2>&#34;
+</span></span></span><span class=line><span class=ln> 9</span><span class=cl><span class=s2>[Interface]
+</span></span></span><span class=line><span class=ln>10</span><span class=cl><span class=s2>PrivateKey = </span><span class=k>$(</span>cat server_privatekey<span class=k>)</span><span class=s2>
+</span></span></span><span class=line><span class=ln>11</span><span class=cl><span class=s2>Address = 10.0.8.1/24
+</span></span></span><span class=line><span class=ln>12</span><span class=cl><span class=s2>PostUp   = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -A FORWARD -o wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+</span></span></span><span class=line><span class=ln>13</span><span class=cl><span class=s2>PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+</span></span></span><span class=line><span class=ln>14</span><span class=cl><span class=s2>ListenPort = port
+</span></span></span><span class=line><span class=ln>15</span><span class=cl><span class=s2>DNS = 8.8.8.8
+</span></span></span><span class=line><span class=ln>16</span><span class=cl><span class=s2>[Peer]
+</span></span></span><span class=line><span class=ln>17</span><span class=cl><span class=s2>PublicKey =  </span><span class=k>$(</span>cat client_publickey<span class=k>)</span><span class=s2>
+</span></span></span><span class=line><span class=ln>18</span><span class=cl><span class=s2>AllowedIPs = 10.0.8.100/32 &#34;</span> &gt; wg0.conf
+</span></span><span class=line><span class=ln>19</span><span class=cl>&gt; eth0 根据情况适配  
+</span></span><span class=line><span class=ln>20</span><span class=cl>
+</span></span><span class=line><span class=ln>21</span><span class=cl>sudo systemctl <span class=nb>enable</span> wg-quick@wg0
+</span></span><span class=line><span class=ln>22</span><span class=cl><span class=c1># 启动WireGuard</span>
+</span></span><span class=line><span class=ln>23</span><span class=cl>wg-quick up wg0
+</span></span><span class=line><span class=ln>24</span><span class=cl><span class=c1># 停止WireGuard</span>
+</span></span><span class=line><span class=ln>25</span><span class=cl>wg-quick down wg0
+</span></span><span class=line><span class=ln>26</span><span class=cl><span class=c1># 查看wireguard服务端运行状态</span>
+</span></span><span class=line><span class=ln>27</span><span class=cl>wg
+</span></span><span class=line><span class=ln>28</span><span class=cl>
+</span></span><span class=line><span class=ln>29</span><span class=cl><span class=nb>echo</span> <span class=s2>&#34;
+</span></span></span><span class=line><span class=ln>30</span><span class=cl><span class=s2>[Interface]
+</span></span></span><span class=line><span class=ln>31</span><span class=cl><span class=s2>  PrivateKey = </span><span class=k>$(</span>cat client_privatekey<span class=k>)</span><span class=s2>
+</span></span></span><span class=line><span class=ln>32</span><span class=cl><span class=s2>  Address = 10.0.8.100/32
+</span></span></span><span class=line><span class=ln>33</span><span class=cl><span class=s2>  DNS = 8.8.8.8
+</span></span></span><span class=line><span class=ln>34</span><span class=cl><span class=s2>[Peer]
+</span></span></span><span class=line><span class=ln>35</span><span class=cl><span class=s2>  PublicKey = </span><span class=k>$(</span>cat server_publickey<span class=k>)</span><span class=s2>
+</span></span></span><span class=line><span class=ln>36</span><span class=cl><span class=s2>  Endpoint = ip:port
+</span></span></span><span class=line><span class=ln>37</span><span class=cl><span class=s2>  AllowedIPs = 10.0.8.0/24, 172.22.22.0/24
+</span></span></span><span class=line><span class=ln>38</span><span class=cl><span class=s2>  PersistentKeepalive = 25 &#34;</span> &gt; client.conf
+</span></span><span class=line><span class=ln>39</span><span class=cl>
+</span></span><span class=line><span class=ln>40</span><span class=cl>
+</span></span><span class=line><span class=ln>41</span><span class=cl>sudo ufw allow port/udp
+</span></span><span class=line><span class=ln>42</span><span class=cl>sudo ufw allow ssh
+</span></span><span class=line><span class=ln>43</span><span class=cl>sudo ufw <span class=nb>enable</span>
+</span></span><span class=line><span class=ln>44</span><span class=cl>sudo ufw status
+</span></span><span class=line><span class=ln>45</span><span class=cl>
+</span></span><span class=line><span class=ln>46</span><span class=cl><span class=c1># 测试端口</span>
+</span></span><span class=line><span class=ln>47</span><span class=cl>nc -u IP port
+</span></span><span class=line><span class=ln>48</span><span class=cl>
+</span></span><span class=line><span class=ln>49</span><span class=cl>grep <span class=s2>&#34;Failed password&#34;</span> /var/log/auth.log</span></span></code></pre></div><h2 id=ddns data-numberify>ddns<a class="anchor ms-1" href=#ddns></a></h2><blockquote><p>cf-v4-ddns.sh</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>  1</span><span class=cl><span class=cp>#!/usr/bin/env bash
+</span></span></span><span class=line><span class=ln>  2</span><span class=cl><span class=cp></span><span class=nb>set</span> -o errexit
+</span></span><span class=line><span class=ln>  3</span><span class=cl><span class=nb>set</span> -o nounset
+</span></span><span class=line><span class=ln>  4</span><span class=cl><span class=nb>set</span> -o pipefail
+</span></span><span class=line><span class=ln>  5</span><span class=cl>
+</span></span><span class=line><span class=ln>  6</span><span class=cl><span class=c1># Automatically update your CloudFlare DNS record to the IP, Dynamic DNS</span>
+</span></span><span class=line><span class=ln>  7</span><span class=cl><span class=c1># Can retrieve cloudflare Domain id and list zone&#39;s, because, lazy</span>
+</span></span><span class=line><span class=ln>  8</span><span class=cl>
+</span></span><span class=line><span class=ln>  9</span><span class=cl><span class=c1># Place at:</span>
+</span></span><span class=line><span class=ln> 10</span><span class=cl><span class=c1># curl https://raw.githubusercontent.com/yulewang/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh &gt; /usr/local/bin/cf-ddns.sh &amp;&amp; chmod +x /usr/local/bin/cf-ddns.sh</span>
+</span></span><span class=line><span class=ln> 11</span><span class=cl><span class=c1># run `crontab -e` and add next line:</span>
+</span></span><span class=line><span class=ln> 12</span><span class=cl><span class=c1># */1 * * * * /usr/local/bin/cf-ddns.sh &gt;/dev/null 2&gt;&amp;1</span>
+</span></span><span class=line><span class=ln> 13</span><span class=cl><span class=c1># or you need log:</span>
+</span></span><span class=line><span class=ln> 14</span><span class=cl><span class=c1># */1 * * * * /usr/local/bin/cf-ddns.sh &gt;&gt; /var/log/cf-ddns.log 2&gt;&amp;1</span>
+</span></span><span class=line><span class=ln> 15</span><span class=cl>
+</span></span><span class=line><span class=ln> 16</span><span class=cl>
+</span></span><span class=line><span class=ln> 17</span><span class=cl><span class=c1># Usage:</span>
+</span></span><span class=line><span class=ln> 18</span><span class=cl><span class=c1># cf-ddns.sh -k cloudflare-api-key \</span>
+</span></span><span class=line><span class=ln> 19</span><span class=cl><span class=c1>#            -u user@example.com \</span>
+</span></span><span class=line><span class=ln> 20</span><span class=cl><span class=c1>#            -h host.example.com \     # fqdn of the record you want to update</span>
+</span></span><span class=line><span class=ln> 21</span><span class=cl><span class=c1>#            -z example.com \          # will show you all zones if forgot, but you need this</span>
+</span></span><span class=line><span class=ln> 22</span><span class=cl><span class=c1>#            -t A|AAAA                 # specify ipv4/ipv6, default: ipv4</span>
+</span></span><span class=line><span class=ln> 23</span><span class=cl>
+</span></span><span class=line><span class=ln> 24</span><span class=cl><span class=c1># Optional flags:</span>
+</span></span><span class=line><span class=ln> 25</span><span class=cl><span class=c1>#            -f false|true \           # force dns update, disregard local stored ip</span>
+</span></span><span class=line><span class=ln> 26</span><span class=cl>
+</span></span><span class=line><span class=ln> 27</span><span class=cl><span class=c1># default config</span>
+</span></span><span class=line><span class=ln> 28</span><span class=cl><span class=nv>KEYFILE</span><span class=o>=</span><span class=k>$(</span><span class=nb>cd</span> <span class=s2>&#34;</span><span class=k>$(</span>dirname <span class=s2>&#34;</span><span class=si>${</span><span class=nv>BASH_SOURCE</span><span class=p>[0]</span><span class=si>}</span><span class=s2>&#34;</span><span class=k>)</span><span class=s2>&#34;</span> <span class=o>&amp;&amp;</span> <span class=nb>pwd</span><span class=k>)</span>/log
+</span></span><span class=line><span class=ln> 29</span><span class=cl><span class=o>[</span> ! -d <span class=s2>&#34;</span><span class=nv>$KEYFILE</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> mkdir -p <span class=s2>&#34;</span><span class=nv>$KEYFILE</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln> 30</span><span class=cl><span class=nv>LOGFILE</span><span class=o>=</span><span class=si>${</span><span class=nv>KEYFILE</span><span class=si>}</span>/ddns.txt
+</span></span><span class=line><span class=ln> 31</span><span class=cl><span class=k>if</span> <span class=o>[[</span> <span class=nv>$#</span> -gt <span class=m>0</span> <span class=o>]]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 32</span><span class=cl>    <span class=nv>CONFIG_FILE</span><span class=o>=</span><span class=nv>$1</span>
+</span></span><span class=line><span class=ln> 33</span><span class=cl><span class=k>else</span>
+</span></span><span class=line><span class=ln> 34</span><span class=cl>    <span class=nv>CONFIG_FILE</span><span class=o>=</span><span class=si>${</span><span class=nv>KEYFILE</span><span class=si>}</span>/../config.json
+</span></span><span class=line><span class=ln> 35</span><span class=cl><span class=k>fi</span>
+</span></span><span class=line><span class=ln> 36</span><span class=cl>
+</span></span><span class=line><span class=ln> 37</span><span class=cl><span class=c1># API key, see https://www.cloudflare.com/a/account/my-account,</span>
+</span></span><span class=line><span class=ln> 38</span><span class=cl><span class=c1># incorrect api-key results in E_UNAUTH error</span>
+</span></span><span class=line><span class=ln> 39</span><span class=cl><span class=nv>CFKEY</span><span class=o>=</span><span class=k>$(</span>jq -r <span class=s1>&#39;.CFKEY&#39;</span> <span class=nv>$CONFIG_FILE</span><span class=k>)</span>
+</span></span><span class=line><span class=ln> 40</span><span class=cl>
+</span></span><span class=line><span class=ln> 41</span><span class=cl><span class=c1># Username, eg: user@example.com</span>
+</span></span><span class=line><span class=ln> 42</span><span class=cl><span class=nv>CFUSER</span><span class=o>=</span><span class=k>$(</span>jq -r <span class=s1>&#39;.CFUSER&#39;</span> <span class=nv>$CONFIG_FILE</span><span class=k>)</span>
+</span></span><span class=line><span class=ln> 43</span><span class=cl>
+</span></span><span class=line><span class=ln> 44</span><span class=cl><span class=c1># Record type, A(IPv4)|AAAA(IPv6), default IPv4</span>
+</span></span><span class=line><span class=ln> 45</span><span class=cl><span class=nv>CFRECORD_TYPE</span><span class=o>=</span>A
+</span></span><span class=line><span class=ln> 46</span><span class=cl>
+</span></span><span class=line><span class=ln> 47</span><span class=cl><span class=c1># Cloudflare TTL for record, between 120 and 86400 seconds</span>
+</span></span><span class=line><span class=ln> 48</span><span class=cl><span class=nv>CFTTL</span><span class=o>=</span><span class=m>0</span> <span class=c1># 120 # 0-auto</span>
+</span></span><span class=line><span class=ln> 49</span><span class=cl>
+</span></span><span class=line><span class=ln> 50</span><span class=cl><span class=c1># Ignore local file, update ip anyway</span>
+</span></span><span class=line><span class=ln> 51</span><span class=cl><span class=nv>FORCE</span><span class=o>=</span><span class=nb>false</span>
+</span></span><span class=line><span class=ln> 52</span><span class=cl>
+</span></span><span class=line><span class=ln> 53</span><span class=cl><span class=nv>WANIPSITE</span><span class=o>=</span><span class=s2>&#34;http://ipv4.icanhazip.com&#34;</span>
+</span></span><span class=line><span class=ln> 54</span><span class=cl>
+</span></span><span class=line><span class=ln> 55</span><span class=cl><span class=c1># Site to retrieve WAN ip, other examples are: bot.whatismyipaddress.com, https://api.ipify.org/ ...</span>
+</span></span><span class=line><span class=ln> 56</span><span class=cl><span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_TYPE</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;A&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 57</span><span class=cl>    :
+</span></span><span class=line><span class=ln> 58</span><span class=cl><span class=k>elif</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_TYPE</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;AAAA&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 59</span><span class=cl>    <span class=nv>WANIPSITE</span><span class=o>=</span><span class=s2>&#34;http://ipv6.icanhazip.com&#34;</span>
+</span></span><span class=line><span class=ln> 60</span><span class=cl><span class=k>else</span>
+</span></span><span class=line><span class=ln> 61</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_TYPE</span><span class=s2> specified is invalid, CFRECORD_TYPE can only be A(for IPv4)|AAAA(for IPv6)&#34;</span>
+</span></span><span class=line><span class=ln> 62</span><span class=cl>    <span class=nb>exit</span> <span class=m>2</span>
+</span></span><span class=line><span class=ln> 63</span><span class=cl><span class=k>fi</span>
+</span></span><span class=line><span class=ln> 64</span><span class=cl>
+</span></span><span class=line><span class=ln> 65</span><span class=cl><span class=c1># get parameter</span>
+</span></span><span class=line><span class=ln> 66</span><span class=cl><span class=k>while</span> <span class=nb>getopts</span> k:u:h:z:t:f: opts<span class=p>;</span> <span class=k>do</span>
+</span></span><span class=line><span class=ln> 67</span><span class=cl>  <span class=k>case</span> <span class=si>${</span><span class=nv>opts</span><span class=si>}</span> in
+</span></span><span class=line><span class=ln> 68</span><span class=cl>    k<span class=o>)</span> <span class=nv>CFKEY</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 69</span><span class=cl>    u<span class=o>)</span> <span class=nv>CFUSER</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 70</span><span class=cl>    h<span class=o>)</span> <span class=nv>CFRECORD_NAME</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 71</span><span class=cl>    z<span class=o>)</span> <span class=nv>CFZONE_NAME</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 72</span><span class=cl>    t<span class=o>)</span> <span class=nv>CFRECORD_TYPE</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 73</span><span class=cl>    f<span class=o>)</span> <span class=nv>FORCE</span><span class=o>=</span><span class=si>${</span><span class=nv>OPTARG</span><span class=si>}</span> <span class=p>;;</span>
+</span></span><span class=line><span class=ln> 74</span><span class=cl>  <span class=k>esac</span>
+</span></span><span class=line><span class=ln> 75</span><span class=cl><span class=k>done</span>
+</span></span><span class=line><span class=ln> 76</span><span class=cl>
+</span></span><span class=line><span class=ln> 77</span><span class=cl><span class=c1># If required settings are missing just exit</span>
+</span></span><span class=line><span class=ln> 78</span><span class=cl><span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$CFKEY</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 79</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;Missing api-key, get at: https://www.cloudflare.com/a/account/my-account&#34;</span>
+</span></span><span class=line><span class=ln> 80</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;and save in </span><span class=si>${</span><span class=nv>0</span><span class=si>}</span><span class=s2> or using the -k flag&#34;</span>
+</span></span><span class=line><span class=ln> 81</span><span class=cl>    <span class=nb>exit</span> <span class=m>2</span>
+</span></span><span class=line><span class=ln> 82</span><span class=cl><span class=k>fi</span>
+</span></span><span class=line><span class=ln> 83</span><span class=cl><span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$CFUSER</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 84</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;Missing username, probably your email-address&#34;</span>
+</span></span><span class=line><span class=ln> 85</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;and save in </span><span class=si>${</span><span class=nv>0</span><span class=si>}</span><span class=s2> or using the -u flag&#34;</span>
+</span></span><span class=line><span class=ln> 86</span><span class=cl>    <span class=nb>exit</span> <span class=m>2</span>
+</span></span><span class=line><span class=ln> 87</span><span class=cl><span class=k>fi</span>
+</span></span><span class=line><span class=ln> 88</span><span class=cl><span class=c1># if [ &#34;$CFRECORD_NAME&#34; = &#34;&#34; ]; then </span>
+</span></span><span class=line><span class=ln> 89</span><span class=cl><span class=c1>#     echo &#34;Missing hostname, what host do you want to update?&#34;</span>
+</span></span><span class=line><span class=ln> 90</span><span class=cl><span class=c1>#     echo &#34;save in ${0} or using the -h flag&#34;</span>
+</span></span><span class=line><span class=ln> 91</span><span class=cl><span class=c1>#     exit 2</span>
+</span></span><span class=line><span class=ln> 92</span><span class=cl><span class=c1># fi</span>
+</span></span><span class=line><span class=ln> 93</span><span class=cl>
+</span></span><span class=line><span class=ln> 94</span><span class=cl>check_ip<span class=o>()</span>
+</span></span><span class=line><span class=ln> 95</span><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=ln> 96</span><span class=cl>    <span class=c1># If the hostname is not a FQDN</span>
+</span></span><span class=line><span class=ln> 97</span><span class=cl>    <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_NAME</span><span class=s2>&#34;</span> !<span class=o>=</span> <span class=s2>&#34;</span><span class=nv>$CFZONE_NAME</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> ! <span class=o>[</span> -z <span class=s2>&#34;</span><span class=si>${</span><span class=nv>CFRECORD_NAME</span><span class=p>##*</span><span class=nv>$CFZONE_NAME</span><span class=si>}</span><span class=s2>&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln> 98</span><span class=cl>        <span class=nv>CFRECORD_NAME</span><span class=o>=</span><span class=s2>&#34;</span><span class=nv>$CFRECORD_NAME</span><span class=s2>.</span><span class=nv>$CFZONE_NAME</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln> 99</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34; =&gt; Hostname is not a FQDN, assuming </span><span class=nv>$CFRECORD_NAME</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln>100</span><span class=cl>    <span class=k>fi</span>
+</span></span><span class=line><span class=ln>101</span><span class=cl>
+</span></span><span class=line><span class=ln>102</span><span class=cl>    <span class=c1># Get current and old WAN ip</span>
+</span></span><span class=line><span class=ln>103</span><span class=cl>    <span class=c1># WAN_IP=`curl -s ${WANIPSITE}`</span>
+</span></span><span class=line><span class=ln>104</span><span class=cl>    <span class=nv>WAN_IP</span><span class=o>=</span><span class=sb>`</span>curl -s cip.cc <span class=p>|</span> grep IP <span class=p>|</span> awk -F <span class=s1>&#39;: &#39;</span> <span class=s1>&#39;{print $2}&#39;</span><span class=sb>`</span>
+</span></span><span class=line><span class=ln>105</span><span class=cl>    <span class=nv>WAN_IP_FILE</span><span class=o>=</span><span class=nv>$KEYFILE</span>/cf-wan_ip_<span class=nv>$CFRECORD_NAME</span>.txt
+</span></span><span class=line><span class=ln>106</span><span class=cl>    <span class=k>if</span> <span class=o>[</span> -f <span class=nv>$WAN_IP_FILE</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln>107</span><span class=cl>        <span class=nv>OLD_WAN_IP</span><span class=o>=</span><span class=sb>`</span>cat <span class=nv>$WAN_IP_FILE</span><span class=sb>`</span>
+</span></span><span class=line><span class=ln>108</span><span class=cl>    <span class=k>else</span>
+</span></span><span class=line><span class=ln>109</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;No file, need IP&#34;</span>
+</span></span><span class=line><span class=ln>110</span><span class=cl>        <span class=nv>OLD_WAN_IP</span><span class=o>=</span><span class=s2>&#34;&#34;</span>
+</span></span><span class=line><span class=ln>111</span><span class=cl>    <span class=k>fi</span>
+</span></span><span class=line><span class=ln>112</span><span class=cl>
+</span></span><span class=line><span class=ln>113</span><span class=cl>    <span class=c1># If WAN IP is unchanged an not -f flag, exit here</span>
+</span></span><span class=line><span class=ln>114</span><span class=cl>    <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$WAN_IP</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;</span><span class=nv>$OLD_WAN_IP</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$FORCE</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=nb>false</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln>115</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;WAN IP Unchanged, to update anyway use flag -f true&#34;</span>
+</span></span><span class=line><span class=ln>116</span><span class=cl>        <span class=k>return</span> <span class=c1># exit 0</span>
+</span></span><span class=line><span class=ln>117</span><span class=cl>    <span class=k>fi</span>
+</span></span><span class=line><span class=ln>118</span><span class=cl>
+</span></span><span class=line><span class=ln>119</span><span class=cl>    <span class=c1># Get zone_identifier &amp; record_identifier</span>
+</span></span><span class=line><span class=ln>120</span><span class=cl>    <span class=nv>ID_FILE</span><span class=o>=</span><span class=nv>$KEYFILE</span>/cf-id_<span class=nv>$CFRECORD_NAME</span>.txt
+</span></span><span class=line><span class=ln>121</span><span class=cl>    <span class=k>if</span> <span class=o>[</span> -f <span class=nv>$ID_FILE</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=o>[</span> <span class=k>$(</span>wc -l <span class=nv>$ID_FILE</span> <span class=p>|</span> cut -d <span class=s2>&#34; &#34;</span> -f 1<span class=k>)</span> <span class=o>==</span> <span class=m>4</span> <span class=o>]</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>122</span><span class=cl><span class=se></span>    <span class=o>&amp;&amp;</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=k>$(</span>sed -n <span class=s1>&#39;3,1p&#39;</span> <span class=s2>&#34;</span><span class=nv>$ID_FILE</span><span class=s2>&#34;</span><span class=k>)</span><span class=s2>&#34;</span> <span class=o>==</span> <span class=s2>&#34;</span><span class=nv>$CFZONE_NAME</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>123</span><span class=cl><span class=se></span>    <span class=o>&amp;&amp;</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=k>$(</span>sed -n <span class=s1>&#39;4,1p&#39;</span> <span class=s2>&#34;</span><span class=nv>$ID_FILE</span><span class=s2>&#34;</span><span class=k>)</span><span class=s2>&#34;</span> <span class=o>==</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_NAME</span><span class=s2>&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln>124</span><span class=cl>        <span class=nv>CFZONE_ID</span><span class=o>=</span><span class=k>$(</span>sed -n <span class=s1>&#39;1,1p&#39;</span> <span class=s2>&#34;</span><span class=nv>$ID_FILE</span><span class=s2>&#34;</span><span class=k>)</span>
+</span></span><span class=line><span class=ln>125</span><span class=cl>        <span class=nv>CFRECORD_ID</span><span class=o>=</span><span class=k>$(</span>sed -n <span class=s1>&#39;2,1p&#39;</span> <span class=s2>&#34;</span><span class=nv>$ID_FILE</span><span class=s2>&#34;</span><span class=k>)</span>
+</span></span><span class=line><span class=ln>126</span><span class=cl>    <span class=k>else</span>
+</span></span><span class=line><span class=ln>127</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;Updating zone_identifier &amp; record_identifier&#34;</span>
+</span></span><span class=line><span class=ln>128</span><span class=cl>        <span class=nv>CFZONE_ID</span><span class=o>=</span><span class=k>$(</span>curl -s -X GET <span class=s2>&#34;https://api.cloudflare.com/client/v4/zones?name=</span><span class=nv>$CFZONE_NAME</span><span class=s2>&#34;</span> -H <span class=s2>&#34;X-Auth-Email: </span><span class=nv>$CFUSER</span><span class=s2>&#34;</span> -H <span class=s2>&#34;X-Auth-Key: </span><span class=nv>$CFKEY</span><span class=s2>&#34;</span> -H <span class=s2>&#34;Content-Type: application/json&#34;</span> <span class=p>|</span> jq -r <span class=s1>&#39;.result[0].id&#39;</span> <span class=k>)</span> <span class=c1># grep -Po &#39;(?&lt;=&#34;id&#34;:&#34;)[^&#34;]*&#39; | head -1 </span>
+</span></span><span class=line><span class=ln>129</span><span class=cl>        <span class=nv>CFRECORD_ID</span><span class=o>=</span><span class=k>$(</span>curl -s -X GET <span class=s2>&#34;https://api.cloudflare.com/client/v4/zones/</span><span class=nv>$CFZONE_ID</span><span class=s2>/dns_records?name=</span><span class=nv>$CFRECORD_NAME</span><span class=s2>&#34;</span> -H <span class=s2>&#34;X-Auth-Email: </span><span class=nv>$CFUSER</span><span class=s2>&#34;</span> -H <span class=s2>&#34;X-Auth-Key: </span><span class=nv>$CFKEY</span><span class=s2>&#34;</span> -H <span class=s2>&#34;Content-Type: application/json&#34;</span>  <span class=p>|</span> jq -r <span class=s1>&#39;.result[0].id&#39;</span> <span class=k>)</span>
+</span></span><span class=line><span class=ln>130</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$CFZONE_ID</span><span class=s2>&#34;</span> &gt; <span class=nv>$ID_FILE</span>
+</span></span><span class=line><span class=ln>131</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_ID</span><span class=s2>&#34;</span> &gt;&gt; <span class=nv>$ID_FILE</span>
+</span></span><span class=line><span class=ln>132</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$CFZONE_NAME</span><span class=s2>&#34;</span> &gt;&gt; <span class=nv>$ID_FILE</span>
+</span></span><span class=line><span class=ln>133</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$CFRECORD_NAME</span><span class=s2>&#34;</span> &gt;&gt; <span class=nv>$ID_FILE</span>
+</span></span><span class=line><span class=ln>134</span><span class=cl>    <span class=k>fi</span>
+</span></span><span class=line><span class=ln>135</span><span class=cl>
+</span></span><span class=line><span class=ln>136</span><span class=cl>    <span class=c1># If WAN is changed, update cloudflare</span>
+</span></span><span class=line><span class=ln>137</span><span class=cl>    <span class=nb>echo</span> <span class=s2>&#34;Updating DNS to </span><span class=nv>$WAN_IP</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln>138</span><span class=cl>
+</span></span><span class=line><span class=ln>139</span><span class=cl>    <span class=nv>RESPONSE</span><span class=o>=</span><span class=k>$(</span>curl -s -X PUT <span class=s2>&#34;https://api.cloudflare.com/client/v4/zones/</span><span class=nv>$CFZONE_ID</span><span class=s2>/dns_records/</span><span class=nv>$CFRECORD_ID</span><span class=s2>&#34;</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>140</span><span class=cl><span class=se></span>    -H <span class=s2>&#34;X-Auth-Email: </span><span class=nv>$CFUSER</span><span class=s2>&#34;</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>141</span><span class=cl><span class=se></span>    -H <span class=s2>&#34;X-Auth-Key: </span><span class=nv>$CFKEY</span><span class=s2>&#34;</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>142</span><span class=cl><span class=se></span>    -H <span class=s2>&#34;Content-Type: application/json&#34;</span> <span class=se>\
+</span></span></span><span class=line><span class=ln>143</span><span class=cl><span class=se></span>    --data <span class=s2>&#34;{\&#34;id\&#34;:\&#34;</span><span class=nv>$CFZONE_ID</span><span class=s2>\&#34;,\&#34;type\&#34;:\&#34;</span><span class=nv>$CFRECORD_TYPE</span><span class=s2>\&#34;,\&#34;name\&#34;:\&#34;</span><span class=nv>$CFRECORD_NAME</span><span class=s2>\&#34;,\&#34;content\&#34;:\&#34;</span><span class=nv>$WAN_IP</span><span class=s2>\&#34;, \&#34;ttl\&#34;:</span><span class=nv>$CFTTL</span><span class=s2>}&#34;</span><span class=k>)</span>
+</span></span><span class=line><span class=ln>144</span><span class=cl>
+</span></span><span class=line><span class=ln>145</span><span class=cl>    <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$RESPONSE</span><span class=s2>&#34;</span> !<span class=o>=</span> <span class=s2>&#34;</span><span class=si>${</span><span class=nv>RESPONSE</span><span class=p>%success*</span><span class=si>}</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=k>$(</span><span class=nb>echo</span> <span class=nv>$RESPONSE</span> <span class=p>|</span> grep <span class=s2>&#34;\&#34;success\&#34;:true&#34;</span><span class=k>)</span><span class=s2>&#34;</span> !<span class=o>=</span> <span class=s2>&#34;&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=ln>146</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;Updated succesfuly!&#34;</span>
+</span></span><span class=line><span class=ln>147</span><span class=cl>        <span class=nb>echo</span> <span class=nv>$WAN_IP</span> &gt; <span class=nv>$WAN_IP_FILE</span>
+</span></span><span class=line><span class=ln>148</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=k>$(</span>date <span class=s2>&#34;+%Y-%m-%d %H:%M:%S&#34;</span><span class=k>)</span><span class=s2> Updated succesfuly! : </span><span class=nv>$WAN_IP</span><span class=s2>&#34;</span> &gt;&gt; <span class=nv>$LOGFILE</span>
+</span></span><span class=line><span class=ln>149</span><span class=cl>        <span class=c1># exit</span>
+</span></span><span class=line><span class=ln>150</span><span class=cl>    <span class=k>else</span>
+</span></span><span class=line><span class=ln>151</span><span class=cl>        <span class=nb>echo</span> <span class=s1>&#39;Something went wrong :(&#39;</span>
+</span></span><span class=line><span class=ln>152</span><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;Response: </span><span class=nv>$RESPONSE</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln>153</span><span class=cl>        <span class=c1># exit 1</span>
+</span></span><span class=line><span class=ln>154</span><span class=cl>    <span class=k>fi</span>
+</span></span><span class=line><span class=ln>155</span><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=ln>156</span><span class=cl>
+</span></span><span class=line><span class=ln>157</span><span class=cl><span class=k>for</span> domain in <span class=k>$(</span>jq -r <span class=s1>&#39;.CFDOMAIN[]&#39;</span> <span class=nv>$CONFIG_FILE</span><span class=k>)</span><span class=p>;</span> <span class=k>do</span>
+</span></span><span class=line><span class=ln>158</span><span class=cl>    <span class=nv>CFRECORD_NAME</span><span class=o>=</span><span class=s2>&#34;</span><span class=nv>$domain</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=ln>159</span><span class=cl>    <span class=nv>CFZONE_NAME</span><span class=o>=</span><span class=k>$(</span><span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$domain</span><span class=s2>&#34;</span> <span class=p>|</span> awk -F. <span class=s1>&#39;{print $(NF-1)&#34;.&#34;$NF}&#39;</span><span class=k>)</span>
+</span></span><span class=line><span class=ln>160</span><span class=cl>    check_ip
+</span></span><span class=line><span class=ln>161</span><span class=cl><span class=k>done</span></span></span></code></pre></div><blockquote><p>config.json</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=ln>1</span><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl>    <span class=nt>&#34;CFKEY&#34;</span><span class=p>:</span><span class=s2>&#34;xxxxxx&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=ln>3</span><span class=cl>    <span class=nt>&#34;CFUSER&#34;</span><span class=p>:</span><span class=s2>&#34;xxx@xxx.com&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=ln>4</span><span class=cl>    <span class=nt>&#34;CFDOMAIN&#34;</span><span class=p>:[</span>
+</span></span><span class=line><span class=ln>5</span><span class=cl>        <span class=s2>&#34;xxx.yyy&#34;</span>
+</span></span><span class=line><span class=ln>6</span><span class=cl>    <span class=p>]</span>
+</span></span><span class=line><span class=ln>7</span><span class=cl><span class=p>}</span></span></span></code></pre></div><h2 id=shellcrash data-numberify>ShellCrash<a class="anchor ms-1" href=#shellcrash></a></h2><blockquote><p><a href=https://github.com/juewuy/ShellCrash target=_blank rel="noopener noreferrer">https://github.com/juewuy/ShellCrash<i class="fas fa-external-link-square-alt ms-1"></i></a></p></blockquote><p><a href=https://github.com/juewuy/ShellCrash/blob/dev/README_CN.md#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85 target=_blank rel="noopener noreferrer">在线安装<i class="fas fa-external-link-square-alt ms-1"></i></a>：<em>只是引用的文件源不同</em></p><blockquote><p>0 3 * * 3 /etc/ShellCrash/task/task.sh 104 在每周3的3点整更新订阅并重启服务
+0 3 * * 5 /etc/ShellCrash/task/task.sh 113 在每周5的3点整自动更新数据库文件</p></blockquote><h3 id=meta内核 data-numberify>meta内核<a class="anchor ms-1" href=#meta内核></a></h3><pre><code>    2-1   : 查看当前的内核
+    2-1-3 : Tproxy模式
+    2-1-7 : 3 劫持局域网+本机流量
+    2-2   : 1 fake-ip  3 mix混合模式
+    2-2-4 : 7 禁用DNS劫持，自定义dns服务器
+    2-9   : Fake-ip过滤列表  /etc/ShellCrash/configs/fake_ip_filter
+    4-1   : 允许ShellCrash开机启动
+    5-7   : 自动保存面板配置 周3的3点整更新订阅  自动同步ntp时间
+    6-1   : 订阅相关
+    6-6-2 : 自定义规则  /etc/ShellCrash/yamls/rules.yaml
+    9-4-2 : 面板  https://github.com/MetaCubeX/metacubexd  ui面板
+    8-2   : 切换内核singbox
+</code></pre><h3 id=config data-numberify>config<a class="anchor ms-1" href=#config></a></h3><blockquote><p>configs/ShellCrash.cfg</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=ln> 1</span><span class=cl>#ShellCrash配置文件，不明勿动！
+</span></span><span class=line><span class=ln> 2</span><span class=cl>versionsh_l=1.9.2beta4
+</span></span><span class=line><span class=ln> 3</span><span class=cl>firewall_mod=iptables
+</span></span><span class=line><span class=ln> 4</span><span class=cl>update_url=https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master
+</span></span><span class=line><span class=ln> 5</span><span class=cl>userguide=1
+</span></span><span class=line><span class=ln> 6</span><span class=cl>redir_mod=混合模式
+</span></span><span class=line><span class=ln> 7</span><span class=cl>cn_ip_route=已开启
+</span></span><span class=line><span class=ln> 8</span><span class=cl>dns_nameserver=&#39;https://223.5.5.5/dns-query, https://doh.pub/dns-query, tls://dns.rubyfish.cn:853&#39;
+</span></span><span class=line><span class=ln> 9</span><span class=cl>dns_fallback=&#39;https://223.5.5.5/dns-query, https://doh.pub/dns-query, tls://dns.rubyfish.cn:853&#39;
+</span></span><span class=line><span class=ln>10</span><span class=cl>Https=
+</span></span><span class=line><span class=ln>11</span><span class=cl>Url=&#39;https://|https://&#39;
+</span></span><span class=line><span class=ln>12</span><span class=cl>cpucore=armv7
+</span></span><span class=line><span class=ln>13</span><span class=cl>crashcore=meta
+</span></span><span class=line><span class=ln>14</span><span class=cl>core_v=v1.19.11
+</span></span><span class=line><span class=ln>15</span><span class=cl>geosite_v=20250707
+</span></span><span class=line><span class=ln>16</span><span class=cl>mrs_geosite_cn_v=20250707
+</span></span><span class=line><span class=ln>17</span><span class=cl>china_ip_list_v=20250707
+</span></span><span class=line><span class=ln>18</span><span class=cl>china_ipv6_list_v=20250707
+</span></span><span class=line><span class=ln>19</span><span class=cl>Country_v=
+</span></span><span class=line><span class=ln>20</span><span class=cl>cn_mini_v=20250707
+</span></span><span class=line><span class=ln>21</span><span class=cl>hostdir=&#39;:9999/ui&#39;
+</span></span><span class=line><span class=ln>22</span><span class=cl># exclude=&#39;免费|计费&#39;  url 编码
+</span></span><span class=line><span class=ln>23</span><span class=cl>exclude=&#39;%E8%AE%A1%E8%B4%B9%7C%E5%85%8D%E8%B4%B9&#39;
+</span></span><span class=line><span class=ln>24</span><span class=cl># 6-1-5 选取在线生成服务器
+</span></span><span class=line><span class=ln>25</span><span class=cl>server_link=1
+</span></span><span class=line><span class=ln>26</span><span class=cl># 6-1-4 选取在线配置规则模版
+</span></span><span class=line><span class=ln>27</span><span class=cl>rule_link=1</span></span></code></pre></div><h3 id=fakeip data-numberify>fakeip<a class="anchor ms-1" href=#fakeip></a></h3><blockquote><p>configs/fake_ip_filter</p></blockquote><h3 id=yamls data-numberify>yamls<a class="anchor ms-1" href=#yamls></a></h3><blockquote><p>yamls/rules.yaml</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=ln>1</span><span class=cl>- <span class=l>DOMAIN,snapdrop.net,DIRECT</span><span class=w>
+</span></span></span><span class=line><span class=ln>2</span><span class=cl><span class=w></span>- <span class=l>DOMAIN,stun.l.google.com,DIRECT</span><span class=w>
+</span></span></span><span class=line><span class=ln>3</span><span class=cl><span class=w></span>- <span class=l>DOMAIN-SUFFIX,canyouseeme.org,DIRECT</span><span class=w>
+</span></span></span><span class=line><span class=ln>4</span><span class=cl><span class=w></span>- <span class=l>DOMAIN-KEYWORD,spaceship,DIRECT</span><span class=w>
+</span></span></span><span class=line><span class=ln>5</span><span class=cl><span class=w></span>- <span class=l>DOMAIN-KEYWORD,chatgpt,AiGpt</span><span class=w>
+</span></span></span><span class=line><span class=ln>6</span><span class=cl><span class=w></span>- <span class=l>DOMAIN-KEYWORD,grok.com,AiGpt</span></span></span></code></pre></div><blockquote><p>yamls/proxy-groups.yaml</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=ln>1</span><span class=cl><span class=w>  </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>AiGpt</span><span class=w>
+</span></span></span><span class=line><span class=ln>2</span><span class=cl><span class=w>    </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>url-test</span><span class=w>
+</span></span></span><span class=line><span class=ln>3</span><span class=cl><span class=w>    </span><span class=nt>url</span><span class=p>:</span><span class=w> </span><span class=s1>&#39;https://www.gstatic.com/generate_204&#39;</span><span class=w>
+</span></span></span><span class=line><span class=ln>4</span><span class=cl><span class=w>    </span><span class=nt>interval</span><span class=p>:</span><span class=w> </span><span class=m>300</span><span class=w>
+</span></span></span><span class=line><span class=ln>5</span><span class=cl><span class=w>    </span><span class=nt>proxies</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=ln>6</span><span class=cl><span class=w>      </span>- <span class=l>新加坡A02</span><span class=w>
+</span></span></span><span class=line><span class=ln>7</span><span class=cl><span class=w>      </span>- <span class=l>新加坡A03 | IEPL | x2</span></span></span></code></pre></div><h3 id=clashverge data-numberify>clashverge<a class="anchor ms-1" href=#clashverge></a></h3><p><a href=https://www.clashverge.dev/friendship.html target=_blank rel="noopener noreferrer">https://www.clashverge.dev/friendship.html<i class="fas fa-external-link-square-alt ms-1"></i></a></p><blockquote></blockquote><p><a href=https://github.com/ACL4SSR/ACL4SSR/tree/master target=_blank rel="noopener noreferrer">去广告仓库<i class="fas fa-external-link-square-alt ms-1"></i></a></p><h2 id=ax1800-pro data-numberify>ax1800 pro<a class="anchor ms-1" href=#ax1800-pro></a></h2><blockquote><p>刷机参考 <a href=https://github.com/lgs2007m/Actions-OpenWrt.git target=_blank rel="noopener noreferrer">https://github.com/lgs2007m/Actions-OpenWrt.git<i class="fas fa-external-link-square-alt ms-1"></i></a></p></blockquote><h3 id=scripts data-numberify>scripts<a class="anchor ms-1" href=#scripts></a></h3><p><strong>优化</strong></p><ul><li>/sbin/jd_online_upgrade.sh，disable upgrade</li><li>jd-firmware 权限 0</li><li>/etc/dropbear/authorized_keys， 600， ssh-rsa</li><li>iptables -L MINIUPNPD -v -n &ndash;line-numbers -t nat<ul><li>/etc/config/upnpd 配置黑名单没生效，/tmp/upnp.leases</li></ul></li></ul><p><strong>rc.local</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>/usr/sbin/dropbear
+</span></span><span class=line><span class=ln>2</span><span class=cl><span class=nb>exit</span> <span class=m>0</span></span></span></code></pre></div><p><strong>crontab</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl><span class=m>0</span> <span class=m>0</span> * * * /mnt/mmcblk0p27/aaabbb/rustdesk/startdesk.sh TrafficMoitor
+</span></span><span class=line><span class=ln>2</span><span class=cl>*/5 * * * * /mnt/mmcblk0p27/aaabbb/rustdesk/startdesk.sh startcfg
+</span></span><span class=line><span class=ln>3</span><span class=cl>*/20 * * * * /mnt/mmcblk0p27/aaabbb/rustdesk/startdesk.sh rustdeskserver</span></span></code></pre></div><h2 id=ax1800 data-numberify>ax1800<a class="anchor ms-1" href=#ax1800></a></h2><blockquote><p>ramips mt7621</p></blockquote><ol><li>拆机，底部三个螺丝</li><li>串口在有三颗螺丝的铝块散热器下面
+<picture><img class=img-fluid alt src="https://6668688.xyz/docs/misc/images/router/2025-08-10-21-35-50.png?v=560d8d8918ae57c49da70c12afdbba93" loading=lazy width=852 height=428></picture></li><li>波特率115200</li></ol><h3 id=串口 data-numberify>串口<a class="anchor ms-1" href=#串口></a></h3><pre>
+<strong>U-Boot SPL 2018.09 (Sep 06 2022 - 22:06:27 +0800)</strong>
+Trying to boot from NOR
+
+
+U-Boot 2018.09 (Sep 06 2022 - 22:06:27 +0800)
+
+CPU:   MediaTek MT7621AT ver 1, eco 3
+Clocks: CPU: 880MHz, DDR: 1200MHz, Bus: 220MHz, XTAL: 40MHz
+Model: MediaTek MT7621 reference board
+DRAM:  448 MiB
+MMC:   mmc@1e130000: 0
+Loading Environment from SPI Flash... SF: Detected whxx25q128 with page size 256 Bytes, erase size 64 KiB, total 16 MiB
+OK
+In:    uartlite0@1e000c00
+Out:   uartlite0@1e000c00
+Err:   uartlite0@1e000c00
+Net:
+Warning: eth@1e100000 (eth0) using random MAC address - 5e:69:c8:f8:cf:5b
+eth0: eth@1e100000
+Saving Environment to SPI Flash... SF: Detected whxx25q128 with page size 256 Bytes, erase size 64 KiB, total 16 MiB
+Erasing SPI flash...Writing to SPI flash...done
+OK
+<strong>disabled console and autoboot in 0 seconds</strong>
+++++++++++++++upgradeFlag=<null>
+rest gpio value=0 (Low Level effective)
+clock is disabled (0Hz)
+selecting mode MMC legacy (freq : 0 MHz)
+clock is enabled (49019Hz)
+selecting mode MMC legacy (freq : 25 MHz)
+mmc: widths [8, 4, 1] modes [MMC legacy, MMC High Speed (26MHz), SD High Speed (50MHz), MMC High Speed (52MHz), MMC DDR52 (52MHz), HS200 (200MHz)]
+host: widths [4, 1] modes [MMC legacy, SD Legacy, MMC High Speed (26MHz), SD High Speed (50MHz)]
+clock is enabled (25000000Hz)
+trying mode MMC High Speed (26MHz) width 4 (at 26 MHz)
+selecting mode MMC High Speed (26MHz) (freq : 26 MHz)
+clock is enabled (25000000Hz)
+filename=backup.img
+** Unable to read file backup.img **
+fs_read backup.img failed
+copy_form_sd failed
+jdboot - goto jd boot
+
+Usage:
+jdboot
+=> printenv
+baudrate=115200
+bootcmd=jdboot
+bootcount=1
+bootdelay=2
+bootlimit=3
+ipaddr=192.168.68.1
+netmask=255.255.255.0
+serverip=192.168.68.10
+stderr=uartlite0@1e000c00
+stdin=uartlite0@1e000c00
+stdout=uartlite0@1e000c00
+
+Environment size: 209/65532 bytes
+</pre><p>连接ttl之后串口如上，无法输入命令，但是呢无法输入不代表不能进入uboot，<strong>按下reset之后上电</strong>即可在串口中输入命令, 完整操作过程如下：</p><h3 id=降级解锁ssh data-numberify>降级解锁ssh<a class="anchor ms-1" href=#降级解锁ssh></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=ln> 1</span><span class=cl>=&gt; mtkupgrade
+</span></span><span class=line><span class=ln> 2</span><span class=cl>
+</span></span><span class=line><span class=ln> 3</span><span class=cl>Available parts to be upgraded:
+</span></span><span class=line><span class=ln> 4</span><span class=cl>    0 - Bootloader
+</span></span><span class=line><span class=ln> 5</span><span class=cl>    1 - Bootloader (Advanced)
+</span></span><span class=line><span class=ln> 6</span><span class=cl>    2 - Firmware
+</span></span><span class=line><span class=ln> 7</span><span class=cl>
+</span></span><span class=line><span class=ln> 8</span><span class=cl>Select a part: 2
+</span></span><span class=line><span class=ln> 9</span><span class=cl>
+</span></span><span class=line><span class=ln>10</span><span class=cl>*** Upgrading Firmware ***
+</span></span><span class=line><span class=ln>11</span><span class=cl>
+</span></span><span class=line><span class=ln>12</span><span class=cl>Available load methods:
+</span></span><span class=line><span class=ln>13</span><span class=cl>    0 - TFTP client (Default)
+</span></span><span class=line><span class=ln>14</span><span class=cl>    1 - Xmodem
+</span></span><span class=line><span class=ln>15</span><span class=cl>    2 - Ymodem
+</span></span><span class=line><span class=ln>16</span><span class=cl>    3 - Kermit
+</span></span><span class=line><span class=ln>17</span><span class=cl>    4 - S-Record
+</span></span><span class=line><span class=ln>18</span><span class=cl>
+</span></span><span class=line><span class=ln>19</span><span class=cl>Select (enter for default): 0
+</span></span><span class=line><span class=ln>20</span><span class=cl>
+</span></span><span class=line><span class=ln>21</span><span class=cl>Input U-Boot&#39;s IP address: 192.168.68.1
+</span></span><span class=line><span class=ln>22</span><span class=cl>Input TFTP server&#39;s IP address: 192.168.68.10
+</span></span><span class=line><span class=ln>23</span><span class=cl>Input IP netmask: 255.255.255.0
+</span></span><span class=line><span class=ln>24</span><span class=cl>Input file name: JDCOS.bin
+</span></span><span class=line><span class=ln>25</span><span class=cl>
+</span></span><span class=line><span class=ln>26</span><span class=cl>Using eth@1e100000 device
+</span></span><span class=line><span class=ln>27</span><span class=cl>TFTP from server 192.168.68.10; our IP address is 192.168.68.1
+</span></span><span class=line><span class=ln>28</span><span class=cl>Filename &#39;JDCOS.bin&#39;.
+</span></span><span class=line><span class=ln>29</span><span class=cl>Load address: 0x80010000
+</span></span><span class=line><span class=ln>30</span><span class=cl>Loading: T #################################################################
+</span></span><span class=line><span class=ln>31</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>32</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>33</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>34</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>35</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>36</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>37</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>38</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>39</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>40</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>41</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>42</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>43</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>44</span><span class=cl>         #################################################################
+</span></span><span class=line><span class=ln>45</span><span class=cl>         #######################################
+</span></span><span class=line><span class=ln>46</span><span class=cl>         1.6 MiB/s
+</span></span><span class=line><span class=ln>47</span><span class=cl>done
+</span></span><span class=line><span class=ln>48</span><span class=cl>Bytes transferred = 14877400 (e302d8 hex)
+</span></span><span class=line><span class=ln>49</span><span class=cl>
+</span></span><span class=line><span class=ln>50</span><span class=cl>*** Loaded 14877400 (0xe302d8) bytes at 0x80010000 ***
+</span></span><span class=line><span class=ln>51</span><span class=cl>
+</span></span><span class=line><span class=ln>52</span><span class=cl>SF: Detected whxx25q128 with page size 256 Bytes, erase size 64 KiB, total 16 MiB
+</span></span><span class=line><span class=ln>53</span><span class=cl>
+</span></span><span class=line><span class=ln>54</span><span class=cl>Erasing from 0x90000 to 0xecffff, size 0xe40000 ... OK
+</span></span><span class=line><span class=ln>55</span><span class=cl>Writting from 0x80010000 to 0x90000, size 0xe302d8 ... OK
+</span></span><span class=line><span class=ln>56</span><span class=cl>
+</span></span><span class=line><span class=ln>57</span><span class=cl>*** Firmware upgrade completed! ***</span></span></code></pre></div><blockquote><p>先升级 <code>JDCOS.bin</code>(JDC03-3.1.1.r1911), 此版本网页登录解锁ssh，然后备份分区，刷写uboot <code>u-boot-mt7621-68.bin</code></p></blockquote><details><summary>备份分区，刷uboot</summary><pre>
+ $.ajax({
+    url: 'http://' + $.cookie("HostAddrIP") + '/jdcapi',
+    async: false,
+    data: JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "call",
+        params: [
+            $.cookie("sessionid"),
+            "service",
+            "set",
+            {
+                "name": "dropbear",
+                "instances": {"instance1": {"command": ["/usr/sbin/dropbear"]}}
+            }
+        ]
+    }),
+    dataType: 'json',
+    type: 'POST'
+})
+<p>root@JDBoxV3:/tmp/123# cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 00040000 00010000 &ldquo;Bootloader&rdquo;
+mtd1: 00010000 00010000 &ldquo;Config&rdquo;
+mtd2: 00040000 00010000 &ldquo;Factory&rdquo;
+mtd3: 00f70000 00010000 &ldquo;firmware&rdquo;
+mtd4: 003c0000 00010000 &ldquo;kernel&rdquo;
+mtd5: 00bb0000 00010000 &ldquo;rootfs&rdquo;
+mtd6: 00140000 00010000 &ldquo;rootfs_data&rdquo;</p>
+<p>dd if=/dev/mtd0 of=/tmp/123/mtd0_bk.bin
+dd if=/dev/mtd1 of=/tmp/123/mtd1_bk.bin
+dd if=/dev/mtd2 of=/tmp/123/mtd2_bk.bin
+dd if=/dev/mtd3 of=/tmp/123/mtd3_bk.bin
+dd if=/dev/mtd4 of=/tmp/123/mtd4_bk.bin
+dd if=/dev/mtd5 of=/tmp/123/mtd5_bk.bin
+dd if=/dev/mtd6 of=/tmp/123/mtd6_bk.bin</p>
+<p>root@JDBoxV3:/tmp/123# mtd write u-boot-mt7621-68.bin /dev/mtd0
+Unlocking /dev/mtd0 &hellip;</p>
+<p>Writing from u-boot-mt7621-68.bin to /dev/mtd0 &hellip;
+root@JDBoxV3:/tmp/123#
+root@JDBoxV3:/tmp/123#reboot
+</pre></p></details><h3 id=刷openwrt data-numberify>刷openwrt<a class="anchor ms-1" href=#刷openwrt></a></h3><p>重新进入uboot，<code>按键joy</code>上电，进入uboot，网线直连lan口，打开192.168.68.1
+然后选择<code>sysupgrade.bin</code>文件刷openwrt</p><p><picture><img class=img-fluid alt src="https://6668688.xyz/docs/misc/images/router/2025-08-12-23-33-55.png?v=560d8d8918ae57c49da70c12afdbba93" loading=lazy width=384 height=203></picture></p><h3 id=刷原厂固件 data-numberify>刷原厂固件<a class="anchor ms-1" href=#刷原厂固件></a></h3><blockquote><p>如果方案1不行的话，方案2是可刷回的</p></blockquote><ul><li>直接进入uboot升级原厂固件</li><li>把之前备份的分区文件重新刷回</li></ul></div></div></div><div class=card-footer><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-down post-prev-icon me-1" data-fa-transform=rotate-90></i>
+<a href=/docs/misc/hugo/>Hugo</a></div><div class="post-nav post-next"><a href=/docs/misc/investment/funds/>货币基金</a>
+<i class="fas fa-fw fa-chevron-down post-next-icon ms-1" data-fa-transform=rotate-270></i></div></div></div></article><div class="post-copyright mb-3 row card component" id=post-copyright><div class=card-header><h2 class="card-title fs-4 my-2 text-surface">版权</h2></div><div class=card-body></div></div><section class="related-posts row card component"><div class=card-header><h2 class="card-title fs-4 my-2 text-surface">相关文章</h2></div><div class="card-body slide px-1"><div class="slide-inner row gx-0"><div class="col-12 col-md-6 col-lg-4 me-2"><div class="post-card card card-body p-0 border-0 surface"><div class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">NO IMAGE</div><a class=post-title href=/docs/misc/hugo/>Hugo</a><div class="post-meta mb-0">2025年7月19日</div></div></div><div class="col-12 col-md-6 col-lg-4 me-2"><div class="post-card card card-body p-0 border-0 surface"><picture><img class=img-fluid alt=Autosar src=https://6668688.xyz/docs/autosar/images/autosar/2025-07-20-11-21-22.png loading=lazy width=768 height=380>
+</picture><a class=post-title href=/docs/autosar/autosar/>Autosar</a><div class="post-meta mb-0">2025年7月9日</div></div></div></div><button class=slide-control-left>
+<i class="fas fa-2x fa-chevron-circle-down" data-fa-transform=rotate-90></i>
+<span class=visually-hidden>Left</span>
+</button>
+<button class=slide-control-right>
+<i class="fas fa-2x fa-chevron-circle-down" data-fa-transform=rotate-270></i>
+<span class=visually-hidden>Right</span></button></div></section><div class="card component row post-comments" id=post-comments><div class=card-header><h2 class="card-title my-2 fs-4 text-surface">评论</h2></div><div class=card-body><div class=giscus></div></div></div></div></div><aside class="sidebar d-flex docs-sidebar col-xxl-3 position-sticky order-xxl-5"><div class=container><div class="accordion post-toc d-none d-lg-block"><div class="accordion-item row mb-4 card component" id=postTOC><div class="card-header accordion-header"><h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">目录</h2><div class="d-none d-lg-flex gap-2 mb-2"><button id=expand-all-btn class="btn btn-sm btn-outline-primary">展开</button>
+<button id=collapse-all-btn class="btn btn-sm btn-outline-secondary">折叠</button></div><a class="accordion-button d-lg-none mb-1 collapsed shadow-none p-0 bg-transparent" role=button data-bs-toggle=collapse href=#post-toc aria-expanded=false aria-controls=post-toc>目录</a></div><div class="card-body collapse accordion-collapse accordion-body d-lg-block" id=post-toc><nav id=post-toc-nav class="nav flex-column"><nav id=TableOfContents><ul><li><a href=#常用命令>常用命令</a><ul><li><a href=#iptable>iptable</a></li><li><a href=#tcpdump>tcpdump</a></li></ul></li><li><a href=#L_rustdesk>rustdesk</a></li><li><a href=#wireguard>wireguard</a></li><li><a href=#ddns>ddns</a></li><li><a href=#shellcrash>ShellCrash</a><ul><li><a href=#meta内核>meta内核</a></li><li><a href=#config>config</a></li><li><a href=#fakeip>fakeip</a></li><li><a href=#yamls>yamls</a></li><li><a href=#clashverge>clashverge</a></li></ul></li><li><a href=#ax1800-pro>ax1800 pro</a><ul><li><a href=#scripts>scripts</a></li></ul></li><li><a href=#ax1800>ax1800</a><ul><li><a href=#串口>串口</a></li><li><a href=#降级解锁ssh>降级解锁ssh</a></li><li><a href=#刷openwrt>刷openwrt</a></li><li><a href=#刷原厂固件>刷原厂固件</a></li></ul></li></ul></nav></nav></div></div></div><script>document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("#post-toc-nav ul li").forEach(function(e){var t,n=e.querySelector("ul");n&&(t=document.createElement("button"),t.textContent="−",t.className="toc-toggle-btn",t.style.marginRight="6px",t.style.background="transparent",t.style.border="none",t.style.cursor="pointer",t.style.fontWeight="bold",t.style.color="#007bff",t.style.padding="0 4px 0 0",t.onclick=function(){n.style.display==="none"?(n.style.display="block",t.textContent="−"):(n.style.display="none",t.textContent="+")},n.style.display="block",e.insertBefore(t,e.firstChild))});const s=document.getElementById("expand-all-btn"),o=document.getElementById("collapse-all-btn");s.addEventListener("click",function(){document.querySelectorAll("#post-toc-nav ul li").forEach(function(e){const t=e.querySelector("ul"),n=e.querySelector("button.toc-toggle-btn");t&&n&&(t.style.display="block",n.textContent="−")})}),o.addEventListener("click",function(){document.querySelectorAll("#post-toc-nav ul li").forEach(function(e){const t=e.querySelector("ul"),n=e.querySelector("button.toc-toggle-btn");t&&n&&(t.style.display="none",n.textContent="+")})});const t=document.querySelectorAll("#post-toc-nav a"),e=[];t.forEach(t=>{const n=t.getAttribute("href");if(n&&n.startsWith("#")){const s=document.getElementById(n.slice(1));s&&e.push({link:t,target:s})}});function n(){let s=window.scrollY||window.pageYOffset;s+=100;let n=null;for(let t=0;t<e.length;t++){const{link:o,target:i}=e[t];if(i.offsetTop<=s)n=o;else break}t.forEach(e=>e.classList.remove("active")),n&&(n.classList.add("active"),n.scrollIntoView({block:"nearest",inline:"nearest"}))}window.addEventListener("scroll",n),n();function i(){function e(t,n=""){let s=1;t.querySelectorAll(":scope > li").forEach(t=>{const o=t.querySelector(":scope > a"),i=n?`${n}.${s}`:`${s}`;if(o){const e=o.textContent.trim();o.textContent=`${i}. ${e}`}const a=t.querySelector(":scope > ul");a&&e(a,i),s++})}const t=document.querySelector("#TableOfContents > ul");t&&e(t)}})</script><style>#post-toc-nav a.active{font-weight:700;color:#856404;background-color:#fff3cd}.toc-toggle-btn{background:0 0;border:none;padding:0 6px 0 0}</style></div></aside></div></main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex=-1 id=offcanvasActionsPanel aria-labelledby=offcanvasActionsPanelLabel><div class=offcanvas-header><div class="offcanvas-title h5" id=offcanvasActionsPanelLabel><i class="fas fa-fw fa-th-large me-1"></i>
+操作</div><button type=button class="btn-close ms-auto" data-bs-dismiss=offcanvas data-bs-target=offcanvasActionsPanel aria-label=Close></button></div><div class="offcanvas-body mt-2"><div class="social-share mb-4 d-flex overflow-auto"><a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="X Share Button" target=_blank href="https://x.com/intent/tweet?title=Router&url=https%3a%2f%2f6668688.xyz%2fdocs%2fmisc%2frouter%2f"><i class="fab fa-2x fa-fw fa-x-twitter mb-2"></i> X
+</a><a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Facebook Share Button" target=_blank href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2f6668688.xyz%2fdocs%2fmisc%2frouter%2f"><i class="fab fa-2x fa-fw fa-facebook-f mb-2"></i> Facebook</a></div><hr class=mb-4><div class="actions d-flex overflow-auto align-items-center"><a role=button class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();"><span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform=rotate-90></i></span> 返回
+</a><a role=button class="action action-reload-page d-flex flex-column align-items-center me-3"><span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> 刷新
+</a><a role=button class="action action-copy-url d-flex flex-column align-items-center me-3"><span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> 复制链接</a></div></div></div><div class="row text-center"><div class="col-12 mt-2"><p class=mb-2></p><p class="text-secondary mb-2"><small></small></p><div class="copyright mb-2 text-secondary"><small>Copyright © 2025-2025 zcsaoe. All Rights Reserved.</small></div><div class="powered-by mb-2 text-secondary"><small></small></div><nav class="social-links nav justify-content-center mb-2 mt-3"><a class="nav-link social-link p-0 me-1 mb-2" href=mailto:appleeeeo@protonmail.com title=电子邮箱><i class="fas fa-fw fa-2x fa-envelope" style=color:#0963ac></i>
+</a><a class="nav-link social-link p-0 me-1 mb-2" target=_blank href=https://github.com/zcsaoe title=GitHub rel=me><i class="fa-fw fa-2x fab fa-github"></i></a></nav></div><div class="col-12 col-lg-8 offset-0 offset-lg-1"></div></div></footer><script src=/js/plantuml-init.js></script><script data-precache src=/assets/main/bundle.min.308b9e94cdf6f582d972dced59d1ae76c2f26d6c0bc4f02dfa8f9cbcc182cd33.js integrity="sha256-MIuelM329YLZctztWdGudsLybWwLxPAt+o+cvMGCzTM=" crossorigin=anonymous async></script><script data-precache src=/assets/icons/bundle.min.c97d69b111f6a09609591bb9a37c799bba2cae89ca786b5729e53ce6113cb90c.js integrity="sha256-yX1psRH2oJYJWRu5o3x5m7osronKeGtXKeU85hE8uQw=" crossorigin=anonymous defer></script><script data-precache src=/assets/viewer/bundle.min.945567884be417f2aa4a3f7fb0171fc00a214c3c63dd586d110fc7b77d4d6077.js integrity="sha256-lFVniEvkF/KqSj9/sBcfwAohTDxj3VhtEQ/Ht31NYHc=" crossorigin=anonymous defer></script><script src=/js/sw-register.js defer></script><script src=https://giscus.app/client.js data-repo=zcsaoe/zcsaoe.github.io data-repo-id=R_kgDOPDagAg data-category=General data-category-id=DIC_kwDOPDagAs4CsLxl data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous defer></script></body></html>
