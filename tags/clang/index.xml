@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Clang on</title><link>https://6668688.xyz/tags/clang/</link><description>Recent content in Clang on</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2025-2026 zcsaoe. All Rights Reserved.</copyright><lastBuildDate>Mon, 15 Jun 2026 18:33:28 +0800</lastBuildDate><atom:link href="https://6668688.xyz/tags/clang/index.xml" rel="self" type="application/rss+xml"/><item><title>SRecord 在 Windows（MSYS2 + Clang）下编译教程</title><link>https://6668688.xyz/docs/guide/srecord/</link><pubDate>Mon, 15 Jun 2026 18:33:28 +0800</pubDate><guid>https://6668688.xyz/docs/guide/srecord/</guid><description><![CDATA[<p>SRecord 是一套用于处理 EPROM/HEX/SREC 文件的命令行工具，常用工具包括：</p>
+<ul>
+<li>srec_cat</li>
+<li>srec_cmp</li>
+<li>srec_info</li>
+</ul>]]></description></item></channel></rss>
